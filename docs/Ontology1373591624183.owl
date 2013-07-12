@@ -19,7 +19,108 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:Ontology1373591624183="http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#">
-    <owl:Ontology rdf:about=""/>
+    <owl:Ontology rdf:about="">
+        <owl:versionInfo rdf:datatype="&xsd;string">1.0.0</owl:versionInfo>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >Ontologia demonstrando a informa&#231;&#227;o de anuncios</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#ano -->
+
+    <owl:ObjectProperty rdf:about="#ano">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#cambio -->
+
+    <owl:ObjectProperty rdf:about="#cambio">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#caracteristicas -->
+
+    <owl:ObjectProperty rdf:about="#caracteristicas"/>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#combustivel -->
+
+    <owl:ObjectProperty rdf:about="#combustivel">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#cor -->
+
+    <owl:ObjectProperty rdf:about="#cor">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#estadoUso -->
+
+    <owl:ObjectProperty rdf:about="#estadoUso">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#motor -->
+
+    <owl:ObjectProperty rdf:about="#motor">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#placa -->
+
+    <owl:ObjectProperty rdf:about="#placa">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#portas -->
+
+    <owl:ObjectProperty rdf:about="#portas">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#procedencia -->
+
+    <owl:ObjectProperty rdf:about="#procedencia">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#quilometragem -->
+
+    <owl:ObjectProperty rdf:about="#quilometragem">
+        <rdfs:subPropertyOf rdf:resource="#caracteristicas"/>
+    </owl:ObjectProperty>
     
 
 
@@ -37,6 +138,22 @@
     <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#anuncio -->
 
     <owl:Class rdf:about="#anuncio"/>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#carro -->
+
+    <owl:Class rdf:about="#carro">
+        <rdfs:subClassOf rdf:resource="#anuncio"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pense.com.br/ontology/ad/2013/6/Ontology1373591624183.owl#imovel -->
+
+    <owl:Class rdf:about="#imovel">
+        <rdfs:subClassOf rdf:resource="#anuncio"/>
+    </owl:Class>
 </rdf:RDF>
 
 
